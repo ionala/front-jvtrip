@@ -320,18 +320,6 @@ const Dashboard = () => {
           </div>
         </div>
       </main>
-
-      {/* Floating Action Button */}
-      <button
-        onClick={handleAddDestination}
-        className="fixed bottom-8 right-8 bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-all z-50 group"
-        title="Add Trip"
-      >
-        <Plus size={28} />
-        <span className="absolute right-full mr-3 top-1/2 -translate-y-1/2 bg-gray-800 dark:bg-gray-700 text-white text-sm px-3 py-2 rounded-lg whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
-          Add Trip
-        </span>
-      </button>
     </div>
   );
 };
