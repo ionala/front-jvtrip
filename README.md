@@ -1,16 +1,31 @@
-# React + Vite
+# JVTrip (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+JVTrip is a trip planning web app that helps users plan budgets, build itineraries,
+save wishlists, and track ongoing and past trips.
 
-Currently, two official plugins are available:
+## Features
+- Budget planning
+- Itinerary planning
+- Wishlist
+- Ongoing trips and trip history
+- History filtering with ascending/descending sort
+- Dark mode
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+React, Vite, Tailwind CSS, React Router, Axios
 
-## React Compiler
+## Backend
+https://github.com/ionala/back-jvtrip (Node.js, Express, PostgreSQL)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
+1. Clone this repo and run `npm install`
+2. Create a `.env` file:
+   VITE_API_URL=http://localhost:5000/api
+3. Make sure the backend is running
+4. Run `npm run dev`
 
-## Expanding the ESLint configuration
+## Team
+- Jihan: [bagian yang dikerjakan: DB setup, backend, core features]
+- Viona Rosalia: [bagian yang dikerjakan: history filtering and sorting, dark mode, navbar redesign, UI/UX optimization]
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Built as a Web Programming practicum exam project.
